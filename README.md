@@ -8,6 +8,8 @@ The following is a brief description of the projects I have included. A detailed
 
 ### Heap
 
+We were provided code for a binary heap class. We were to modify the code, changing as few lines as possible, such that the constructor took a paramater `k`, where `k` was the max number of children each node could have (i.e. we modified the binary heap into a k-ary heap).
+
 ### Changeling
 
 ### Binary Tree Search Engine
