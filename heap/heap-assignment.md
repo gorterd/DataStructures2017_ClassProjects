@@ -2,7 +2,7 @@ Author: David Musicant
 
 [Assignment Link](https://www.cs.carleton.edu/faculty/dmusicant/cs201w17/heaps.html)
 
-### Priority Queue via Heaps
+# Priority Queue via Heaps
 
 This assignment is to be done individually. You can share ideas and thoughts with other people in the class, but you should write up your own assignment.
 
