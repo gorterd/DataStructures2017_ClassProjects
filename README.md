@@ -12,7 +12,7 @@ We were provided code for a binary heap class. We were to modify the code, chang
 
 ### Changeling
 
-Changeling is a program that finds a way of transforming one word of a given length to another of the same length, changing one letter at a time, with the fewest possible intermediary words. The program takes three command line arguments: a list of words in the form of a text file (provided to us, each word lowercase & on its own line), the first word, and the second word. Implementation instructions were as follows: 
+Changeling is a program that finds a way of transforming one word of a given length to another of the same length, changing one letter at a time, with the fewest possible intermediary words. The program takes three command line arguments: a list of words in the form of a text file (provided to us, each word lowercase & on its own line), the first word, and the second word. Implementation instructions were as follows (excerpt): 
 > Build a graph out of the word list file where each word is a vertex of the graph and two words/vertices are connected if they are the same length and differ by only one letter. Then use a breadth-first search starting at the first word until you find the second word. Then print out the path, if any, that you discovered in this way.
 
 ### Binary Tree Search Engine
