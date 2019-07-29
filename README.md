@@ -14,6 +14,8 @@ Changeling is a program that finds a way of transforming one word of a given len
 
 ### Sticks ([link](/sticks))
 
+First significant class project. I recreate the game of sticks, wherein there is a "heap of sticks on a board. On their turn, each player picks up 1 to 3 sticks. The one who has to pick the final stick will be the loser." The game can be played between two humans, between a human and a dumb AI, and between a human and a trained AI, which requires simple machine learning.
+
 ### Hash Table Search Engine ([link](/hash-search-engine))
 
 This assignment consisted of two parts: (1) creating a class `HashMapForStrings` that implements a String to String map from scratch using a hash table and linked lists, and (2) creating a class `HashSearchEngine` that takes a user-provided search term and prints a key-value search result(s) where the key matches the the provided search term. We used these classes by storing IDMb film information in the map using a publicly accessible IMDb data file, where the key was the film title and the value was its plot summary, and then searching for films by title using our search engine.
