@@ -32,5 +32,5 @@ Do not change any of the code in `main`, as we will use this to test your code.
 
 ## Writeup portion
 
-(Not included).
+(Omitted)
 
