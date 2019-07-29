@@ -1,9 +1,8 @@
+# Assignment: Search Engine via Binary Search Tree
+
 Author: David Musicant
 
 [Assignment Link](https://www.cs.carleton.edu/faculty/dmusicant/cs201w17/searchtree.html)
-
-
-# Search Engine via Binary Search Tree
 
 ## Overview
 
