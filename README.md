@@ -12,9 +12,13 @@ The following is a brief description of the projects I have included. The comple
 Changeling is a program that finds a way of transforming one word of a given length to another of the same length, changing one letter at a time, with the fewest possible intermediary words. The program takes three command line arguments: a list of words in the form of a text file (provided to us, each word lowercase & on its own line), the first word, and the second word. Implementation instructions were as follows (excerpt): 
 > Build a graph out of the word list file where each word is a vertex of the graph and two words/vertices are connected if they are the same length and differ by only one letter. Then use a breadth-first search starting at the first word until you find the second word. Then print out the path, if any, that you discovered in this way.
 
+### Hash Table Search Engine
+
+This assignment consisted of two parts: (1) creating a class `HashMapForStrings` that implements a String to String map from scratch using a hash table and linked lists, and (2) creating a class `HashSearchEngine` that takes a user-provided search term and prints a key-value search result(s) where the key matches the the provided search term. We used these classes by storing IDMb film information in the map using a publicly accessible IMDb data file, where the key was the film title and the value was its plot summary, and then searching for films by title using our search engine.
+
 ### Binary Tree Search Engine
 
-This assignment consisted of two parts: (1) creating a class `TreeMapForStrings` that implements a String to String map from scratch using a binary search tree, and (2) creating a class `TreeSearchEngine` that takes a user-provided search term and prints a list of key-value search results for which the key matches or starts with the provided search term. We were to test these classes by using the tree map to store IDMb film information where the key was the film title and the value was its plot summary, and then searching for films by title using our search engine.
+This assignment was modeled on the hash table search engine assignment, and likewise consisted of two parts: (1) creating a class `TreeMapForStrings` that implements a String to String map from scratch using a binary search tree, and (2) creating a class `TreeSearchEngine` that takes a user-provided search term and prints a list of key-value search results for which the key matches or starts with the provided search term. We used these classes by storing IDMb film information in the map using a publicly accessible IMDb data file, where the key was the film title and the value was its plot summary, and then searching for films by title using our search engine.
 
 ### Heap
 
