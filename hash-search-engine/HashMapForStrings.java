@@ -1,7 +1,7 @@
 import java.util.LinkedList;
 
 // A hashmap for entries with string keys and string values.
-public class HashMapForStringz {
+public class HashMapForStrings {
    
    private LinkedList<Entry>[] array;;
    
@@ -23,7 +23,7 @@ public class HashMapForStringz {
    }
    
    //Constructor
-   public HashMapForStringz(){
+   public HashMapForStrings(){
       array = new LinkedList[ARRAY_SIZE];
    }
 
