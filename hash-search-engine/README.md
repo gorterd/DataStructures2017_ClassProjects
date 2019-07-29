@@ -13,16 +13,10 @@ For this assignment, we'll make a rudimentary search engine. Specifically, we'll
 
 Create a class called `HashMapForStrings` that will be used to map Strings to Strings. (The intention is to use it to map movie titles to movie plots.) Implement this map as a hash table with chaining via linked lists. For this assignment, you should not use the built-in Java classes that do this task such as `TreeMap`, `HashMap`, `TreeSet`, or `HashSet`. That said, you should use the built-in class `LinkedList`, for your chains. Your map should have the following methods:
 
-* 
-```
-void put(String key, String value)
-```
+* `void put(String key, String value)`
 add a key and a value to your map. If the key is already present in the map, replace the old value with the new one.
 
-*
-```
-String getValue(String key)
-```
+* `String getValue(String key)`
 get the value associated with a particular key. Return `null` if the key is not in the map.
 
 Make sure to test your map appropriately. A main method would be a nice way to do this.
